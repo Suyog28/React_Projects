@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: black;
+  color: white;
+}
+button {
+  padding: 20px;
+  width: 100px;
+  background-color: #ff403d4a;
+  color: white;
+  margin: 20px;
+}
