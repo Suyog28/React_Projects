@@ -1,4 +1,4 @@
-import React from 'react'
+ 
 
 // eslint-disable-next-line react/prop-types, no-unused-vars
 function Card({ username, btnMe }) {
