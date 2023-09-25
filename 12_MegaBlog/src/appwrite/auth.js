@@ -3,14 +3,14 @@ import config from "../config/config";
 import { Client, Account, ID } from 'appwrite';
 
 export class AuthService {
-    Client = new Client();
+    client = new Client();
     Account;
 
     constructor() {
-        this.Client
+        this.client
             .setEndpoint(config.appwriteURL)
             .setProject(config.appwriteProjectID);
-        this.Account = new Account(this.Client);
+        this.Account = new Account(this.client);
     }
 
     async createAccount({ email, password, name }) {
