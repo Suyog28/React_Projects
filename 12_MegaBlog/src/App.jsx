@@ -30,16 +30,17 @@ function App() {
 
 
   return !loading ? <div className='min-h-screen flex 
-  flex-wrap content-between bg-gray-400'> Test</div> : <div
-    className='w-full h-full flex justify-center items-center text-2xl font-bold text-gray-400 bg-gray-800 
-  border-4 border-gray-700 rounded-lg animate-pulse '
-  >
+  flex-wrap content-between bg-gray-400 justify-center items-center text-2xl font-bold text-gray-400 bg-gray-800 
+  border-4 border-gray-700 rounded-lg animate-pulse '> Test</div> : <div
+  className = 'w-full h-full flex justify-center items-center text-2xl font-bold text-gray-400 bg-gray-800 
+  border - 4 border - gray - 700 rounded - lg animate - pulse '
+    >
     <Header />
     <main>
       {/*<Outlet />*/}
     </main>
     <Footer />
-  </div>
+  </div >
 
 }
 
